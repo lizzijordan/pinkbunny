@@ -1,0 +1,135 @@
+html,
+body{
+	margin:0;
+	padding:0;
+	background-color: #E6E6B8;
+
+}
+
+#page{
+	/*
+	width:960px;
+	*/
+	width:100%;
+	margin:0 auto;
+}
+
+#header h1 {
+	font-family: "Lobster";
+	/*
+	font-size:64px;
+	*/
+	font-size: 3em;
+
+}
+#header img{
+	
+	height:1em;
+	
+	width:1em;
+}
+#header{
+	text-align:center;
+	background:#FFFFCC;
+	/*
+	padding:10px;
+	*/
+	padding: 0.01041666666%;
+}
+
+#menu{
+	padding:0;
+	margin:0;
+	text-align:center;
+	background-color: #FF4D94;
+
+}
+#menu a{
+	margin: 0 auto ;
+
+}
+#menu li{
+	display:inline-block;
+	padding:0;
+	margin: 0;
+	font-family: 'IndieFlower';
+}
+#menu a:link{
+	
+	padding:20px 40px 20px 30px;
+
+	text-decoration: none;
+	
+}
+#menu li a:hover
+{
+	color:blue;
+	background:pink;
+	/*
+	font-size:25px;
+	*/
+	font-size:1.5625em;
+
+}
+
+#content h2{
+	text-align: center;
+	font-family: 'lobster';
+}
+
+#content{
+	overflow: auto;
+	background-color: #FFD2F0;
+	border-style: solid;
+	overflow: hidden;
+}
+
+#content h2 img{
+	/*
+	height:24px;
+	*/
+	height:0.025%;
+	/*
+	width:24px;
+	*/
+	width:0.025%;
+	overflow: hidden;
+}
+
+#content img:nth-child(2){
+	border-style: double;
+	display:block;
+	margin-right:auto;
+	margin-left: auto;
+}
+
+#footer{
+	
+	background-color:#FFFFCC;
+	text-align: center;
+	clear:both;
+	/*
+	padding:10px;
+	*/
+	padding: 0.01041666666%;
+	width:100%;
+	font-family: "Lobster";
+	/*
+	margin-top: 20px;
+	*/
+	margin-top: 0.02083333333%;
+
+
+}
+
+
+form{
+	display:block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+form input{
+	display: block;
+	margin:0 auto;
+}

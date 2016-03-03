@@ -1,0 +1,134 @@
+
+html,
+body{
+	margin:0;
+	padding:0;
+	background-color: #E6E6B8;
+
+}
+
+#page{
+	/*
+	width:960px;
+	*/
+	width:100%;
+	margin:0 auto;
+}
+
+#header h1 {
+	font-family: "Lobster";
+	font-size:64px;
+}
+#header img{
+	/*
+	height:64px;
+	width:64px;
+	*/
+	height: 1.000em;
+	width:1.000em;
+}
+#header{
+	text-align:center;
+	background:#FFFFCC;
+	/*
+	padding:10px;
+	width:950px;
+	*/
+	padding: 0.01041666666%;
+	width:100%;
+}
+
+#menu{
+	padding:0;
+	margin:0;
+	text-align:center;
+	background-color: #FF4D94;
+
+}
+#menu a{
+	margin: 0 auto ;
+
+}
+#menu li{
+	display:inline-block;
+	padding:0;
+	margin: 0;
+	font-family: 'IndieFlower';
+}
+#menu a:link{
+	padding:20px 40px 20px 30px;
+	text-decoration: none;
+	
+}
+#menu li a:hover
+{
+	color:blue;
+	background:pink;
+	font-size:25px;
+
+}
+
+#content{
+	overflow: auto;
+	background-color: #FFD2F0;
+	border-style: solid;
+}
+
+#content ul{
+	list-style-image: url('easterbunny.png')
+}
+
+
+
+#nesquikbunny, #peterbunny, #energizerbunny{
+	float:left;
+	
+	padding: 0.01041666666%;
+	width:33%;
+	
+	
+
+}
+
+
+  img{
+  	
+	width:20%;
+  }
+
+#content h2{
+	text-align: center;
+	font-family: 'lobster';
+}
+
+#content h2 img{
+	/*
+	height:24px;
+	width:24px;
+	*/
+	height:1.500em;
+	width:1.500em;
+	font-family: 'Indie+Flower';
+	
+
+}
+
+
+#footer{
+	
+	background-color:#FFFFCC;
+	text-align: center;
+	clear:both;
+	/*
+	padding:10px;
+	*/
+	padding: 0.01041666666%;
+	width:100%;
+	font-family: "Lobster";
+	/*
+	margin-top: 20px;
+	*/
+	margin-top: 0.02083333333%;
+
+
+}
